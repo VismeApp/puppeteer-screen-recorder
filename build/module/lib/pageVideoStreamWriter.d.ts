@@ -14,17 +14,7 @@ export default class PageVideoStreamWriter extends EventEmitter {
     private options;
     private videoMediatorStream;
     private writerPromise;
-    constructor(destinationSource: string | Writable, options?: VideoOptions);
-    private get videoFrameSize();
-    private get autopad();
-    private getFfmpegPath;
-    private getDestinationPathExtension;
-    private configureFFmPegPath;
-    private isWritableStream;
-    private configureVideoFile;
-    private configureVideoWritableStream;
-    private getDestinationStream;
-    private handleWriteStreamError;
+    constructor(destinationSource?: string | Writable, options?: VideoOptions);
     private findSlot;
     insert(frame: pageScreenFrame): void;
     private trimFrame;

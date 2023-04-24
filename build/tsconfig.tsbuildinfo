@@ -152,8 +152,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/pagevideostreamwriter.ts": {
-        "version": "c76650d6597b5e196600980755b6ecb21c6a1a54c2d6b3ca0bc5d973463083ff",
-        "signature": "14f49c97452e33edcd7cd1da18785e2e778c909324ced68247eee4a5bd12d5a4",
+        "version": "2918aeb7974c24fe70f73abb575c6cd6d57df64902bc8e38bdff057f1e599264",
+        "signature": "a8dd000ddcc2df6810ba600abcf44fa4ed35eab3f69643356935b2ccf6b90927",
         "affectsGlobalScope": false
       },
       "../src/lib/puppeteerscreenrecorder.ts": {
@@ -697,8 +697,6 @@
       ],
       "../src/lib/pagevideostreamwriter.ts": [
         "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/os.d.ts",
-        "../node_modules/@types/node/path.d.ts",
         "../node_modules/@types/node/stream.d.ts",
         "../src/lib/pagevideostreamtypes.ts"
       ],
