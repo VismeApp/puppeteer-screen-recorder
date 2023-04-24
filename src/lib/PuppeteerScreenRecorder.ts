@@ -44,7 +44,7 @@ export class PuppeteerScreenRecorder {
   private page: Page;
   private options: PuppeteerScreenRecorderOptions;
   private streamReader: pageVideoStreamCollector;
-  private streamWriter: PageVideoStreamWriter;
+  public streamWriter: PageVideoStreamWriter;
   private isScreenCaptureEnded: boolean | null = null;
 
   constructor(page: Page, options = {}) {
