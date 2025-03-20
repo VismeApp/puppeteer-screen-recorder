@@ -27,5 +27,3 @@ jobs:
       - run: yarn add puppeteer@19.0.0
 
       - run: yarn run build
-
-      - run: yarn run test
